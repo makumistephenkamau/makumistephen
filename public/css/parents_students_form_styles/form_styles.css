@@ -1,0 +1,19 @@
+body{
+background-image:url('/images/background/background.png');
+}
+
+#form_holder{
+  max-width: 800px;
+  background-color: white;
+    margin-top: 0px; //styles for mobile phone
+}
+
+@media screen and (min-width: 480px) {
+    #form_holder {
+          margin-top: 60px; //styles for desktop
+    }
+}
+
+#memberTag{
+  margin-top: 34px;
+}
